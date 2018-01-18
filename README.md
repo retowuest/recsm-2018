@@ -25,4 +25,5 @@ Participants are expected to have a solid understanding of linear and binary reg
 The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (Ridge regression and the Lasso).
 
 [Slides: Introductions and course overview](slides/Wuest_ML_2018_S1.pdf)
+
 [Slides: General introduction to machine learning](slides/Wuest_ML_2018_S1.pdf)
