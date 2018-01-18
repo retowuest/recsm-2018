@@ -18,7 +18,7 @@ The course will use the open-source software R, which is freely available for do
 
 Participants are expected to have a solid understanding of linear and binary regression models. The course will also assume at least a basic familiarity with the R statistical programming language.
 
-## Session 1
+## Session 1: Introduction to Machine Learning
 
 #### March 6, 2018, 13:00-17:00
 
@@ -27,3 +27,15 @@ The first session will provide an introduction to machine learning. We will disc
 [Slides: Introductions and course overview](slides/Wuest_ML_2018_S1.pdf)
 
 [Slides: General introduction to machine learning](slides/Wuest_ML_2018_S1.pdf)
+
+## Session 2: Classification and Regression Trees (CART)
+
+#### March 27, 2018, 13:00-17:00
+
+The second session will deal with tree-based methods, which are another important and highly flexible class of supervised learning methods. After an introduction to the basics of decision trees and a general discussion of the advantages and disadvantages of tree-based models, we will look at three specific widely-used tree-based methods: bagging, random forests, and boosting.
+
+## Session 3: Unsupervised Learning
+
+#### April 17, 2018, 13:00-17:00
+
+In the third session, we will move to unsupervised machine learning methods. We will cover two important unsupervised learning techniques: principal components analysis (PCA) and clustering analysis (*K*-means clustering and hierarchical clustering).
