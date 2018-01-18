@@ -18,6 +18,8 @@ The course will use the open-source software R, which is freely available for do
 
 Participants are expected to have a solid understanding of linear and binary regression models. The course will also assume at least a basic familiarity with the R statistical programming language.
 
-## Session 1: March 6, 2018, 13:00-17:00
+## Session 1
+
+### March 6, 2018, 13:00-17:00
 
 The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (Ridge regression and the Lasso).
