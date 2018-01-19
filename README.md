@@ -4,6 +4,8 @@
 
 [Reto Wüest](http://retowuest.net/) (University of Geneva)
 
+<reto.wuest@unige.ch>
+
 ## Course Description
 
 With ever more data available in electronic form, automated methods of data analysis become increasingly important also in the social sciences. Machine learning refers to a set of methods that can automatically detect patterns in data, or "learn" from data. The uncovered patterns can then be used by the analyst to make accurate predictions and decisions under uncertainty.
