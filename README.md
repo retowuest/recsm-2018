@@ -35,8 +35,11 @@ The first session will provide an introduction to machine learning. We will disc
 | 15:45-16:15 | Shrinkage methods II: The Lasso       |                       |
 | 16:15-17:00 | Applications of Ridge regression and the Lasso |              |
 
+#### Main Readings
 * [Slides: Course Overview](slides/Wuest_ML_2018_S1a.pdf)
 * [Slides: General Introduction](slides/Wuest_ML_2018_S1b.pdf)
+
+##### Recommended Readings
 
 ## Session 2: Classification and Regression Trees (CART)
 
