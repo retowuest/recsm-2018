@@ -67,13 +67,13 @@ The second session will deal with tree-based methods, which are another importan
 
 #### Main Readings
 
-- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 and 6
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 8
 
 #### Recommended Readings
 
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 3 and 7
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and 13
-- Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 9, 10, and 15
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 18
+- Lantz, *Machine Learning with R*, Ch. 11
 
 ## Session 3: Unsupervised Learning
 
