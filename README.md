@@ -27,18 +27,8 @@ The first session will provide an introduction to machine learning. We will disc
 
 | Time        | Topic                | Materials                                |
 |:----------- |:-------------------- |:--------------------------------------   |
-| 13:00-13:30 | Course overview      | * [Slides](slides/Wuest_ML_2018_S1a.pdf) <bf /> * Hallo |
-| 13:30-14:00 | General introduction | * [Slides](slides/Wuest_ML_2018_S1b.pdf) |
-
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | first line\   | first line\        |
-|               | next line     | next line          |
-+---------------+---------------+--------------------+
-| Bananas       | first line\   | first line\        |
-|               | next line     | next line          |
-+---------------+---------------+--------------------+
+| 13:00-13:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf)   |
+| 13:30-14:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) | Lab |
 
 
 * [Slides: Course Overview](slides/Wuest_ML_2018_S1a.pdf)
