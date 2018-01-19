@@ -36,10 +36,14 @@ The first session will provide an introduction to machine learning. We will disc
 | 16:15-17:00 | Applications of Ridge regression and the Lasso |              |
 
 #### Main Readings
+
 - James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 and 6
-- [Slides: General Introduction](slides/Wuest_ML_2018_S1b.pdf)
 
 #### Recommended Readings
+
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 3 and 7
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and 13
+- Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
 
 ## Session 2: Classification and Regression Trees (CART)
 
