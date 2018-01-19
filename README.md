@@ -25,11 +25,15 @@ Participants are expected to have a solid understanding of linear and binary reg
 
 The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (Ridge regression and the Lasso).
 
-| Time        | Topic                | Materials                                |
-|:----------- |:-------------------- |:--------------------------------------   |
-| 13:00-13:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf)   |
-| 13:30-14:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) &#124; Lab |
-
+| Time        | Topic                | Materials                              |
+|:----------- |:-------------------- |:-------------------------------------- |
+| 13:00-13:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
+| 13:30-14:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 14:00-14:45 | Model accuracy       |                                        |
+| 14:45-15:15 | Break                |                                        |
+| 15:15-15:45 | Shrinkage I: Ridge regression |                               |
+| 15:45-16:15 | Shrinkage II: The Lasso       |                               |
+| 16:15-17:00 | Applications         |                                        |
 
 * [Slides: Course Overview](slides/Wuest_ML_2018_S1a.pdf)
 * [Slides: General Introduction](slides/Wuest_ML_2018_S1b.pdf)
