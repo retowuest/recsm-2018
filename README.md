@@ -36,8 +36,8 @@ The first session will provide an introduction to machine learning. We will disc
 | 16:15-17:00 | Applications of Ridge regression and the Lasso |              |
 
 #### Main Readings
-* James et al., [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 and 6
-* [Slides: General Introduction](slides/Wuest_ML_2018_S1b.pdf)
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 and 6
+- [Slides: General Introduction](slides/Wuest_ML_2018_S1b.pdf)
 
 #### Recommended Readings
 
