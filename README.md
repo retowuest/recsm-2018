@@ -80,3 +80,27 @@ The second session will deal with tree-based methods, which are another importan
 #### April 17, 2018, 13:00-17:00
 
 In the third session, we will move to unsupervised machine learning methods. We will cover two important unsupervised learning techniques: principal components analysis (PCA) and clustering analysis (*K*-means clustering and hierarchical clustering).
+
+#### Class Schedule
+
+| Time        | Topic                | Materials                              |
+|:----------- |:-------------------- |:-------------------------------------- |
+| 13:00-13:30 | Introduction to unsupervised learning | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
+| 13:30-14:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 14:15-14:45 | *K*-means clustering   |                                      |
+| 14:45-15:15 | Break                  |                                      |
+| 15:15-16:00 | Hierarchical clustering |                                     |
+| 16:00-16:30 | Application 1: PCA     |                                      |
+| 16:30-17:00 | Application 2: Clustering methods |                                      |
+
+#### Main Readings
+
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 10
+
+#### Recommended Readings
+
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 14
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 22 and 23
+- Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
+- Barber, [*Bayesian Reasoning and Machine Learning*](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage), Ch. 15
+- Lantz, *Machine Learning with R*, Ch. 9
