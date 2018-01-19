@@ -53,6 +53,28 @@ The first session will provide an introduction to machine learning. We will disc
 
 The second session will deal with tree-based methods, which are another important and highly flexible class of supervised learning methods. After an introduction to the basics of decision trees and a general discussion of the advantages and disadvantages of tree-based models, we will look at three specific widely-used tree-based methods: bagging, random forests, and boosting.
 
+#### Class Schedule
+
+| Time        | Topic                | Materials                              |
+|:----------- |:-------------------- |:-------------------------------------- |
+| 13:00-13:30 | Introduction to classification and regression trees | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
+| 13:30-14:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 14:00-14:45 | Bagging, random forests |                                     |
+| 14:45-15:15 | Break                  |                                      |
+| 15:15-16:00 | Boosting               |                                      |
+| 16:00-16:30 | Application 1: Random forests |                               |
+| 16:30-17:00 | Application 2: Boosting |                                     |
+
+#### Main Readings
+
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 and 6
+
+#### Recommended Readings
+
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 3 and 7
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and 13
+- Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
+
 ## Session 3: Unsupervised Learning
 
 #### April 17, 2018, 13:00-17:00
