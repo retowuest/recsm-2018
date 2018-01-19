@@ -29,7 +29,7 @@ The first session will provide an introduction to machine learning. We will disc
 |:----------- |:-------------------- |:-------------------------------------- |
 | 13:00-13:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
 | 13:30-14:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
-| 14:00-14:45 | Model accuracy       |                                        |
+| 14:00-14:45 | Assessing model accuracy |                                    |
 | 14:45-15:15 | Break                |                                        |
 | 15:15-15:45 | Shrinkage methods I: Ridge regression |                       |
 | 15:45-16:15 | Shrinkage methods II: The Lasso       |                       |
