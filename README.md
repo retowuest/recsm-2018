@@ -19,7 +19,9 @@ The course will use the open-source software R, which is freely available for do
 
 Participants are expected to have a solid understanding of linear and binary regression models. The course will also assume at least a basic familiarity with the R statistical programming language.
 
-## Session 1: Introduction to Machine Learning
+## Schedule
+
+### Session 1: Introduction to Machine Learning
 
 #### March 6, 2018, 13:00-17:00
 
@@ -47,7 +49,7 @@ The first session will provide an introduction to machine learning. We will disc
 - Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and 13
 - Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
 
-## Session 2: Classification and Regression Trees (CART)
+### Session 2: Classification and Regression Trees (CART)
 
 #### March 27, 2018, 13:00-17:00
 
@@ -75,7 +77,7 @@ The second session will deal with tree-based methods, which are another importan
 - Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 18
 - Lantz, *Machine Learning with R*, Ch. 11
 
-## Session 3: Unsupervised Learning
+### Session 3: Unsupervised Learning
 
 #### April 17, 2018, 13:00-17:00
 
