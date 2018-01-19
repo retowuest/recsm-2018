@@ -21,6 +21,8 @@ Participants are expected to have a solid understanding of linear and binary reg
 
 ## Schedule
 
+A PDF of the syllabus is available [here](syllabus/syllabus_ml_2018.pdf).
+
 ### Session 1: Introduction to Machine Learning
 
 #### March 6, 2018, 13:00-17:00
