@@ -61,8 +61,8 @@ The second session will deal with tree-based methods, which are another importan
 
 | Time        | Topic                | Materials                              |
 |:----------- |:-------------------- |:-------------------------------------- |
-| 13:00-13:30 | Introduction to classification and regression trees | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
-| 13:30-14:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 13:00-13:30 | Introduction to classification and regression trees | Slides |
+| 13:30-14:00 | Advantages and disadvantages of trees | Slides |
 | 14:00-14:45 | Bagging, random forests |                                     |
 | 14:45-15:15 | Break                  |                                      |
 | 15:15-16:00 | Boosting               |                                      |
@@ -89,8 +89,8 @@ In the third session, we will move to unsupervised machine learning methods. We 
 
 | Time        | Topic                | Materials                              |
 |:----------- |:-------------------- |:-------------------------------------- |
-| 13:00-13:30 | Introduction to unsupervised learning | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
-| 13:30-14:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 13:00-13:30 | Introduction to unsupervised learning | Slides |
+| 13:30-14:15 | Principal components analysis (PCA) | Slides |
 | 14:15-14:45 | *K*-means clustering   |                                      |
 | 14:45-15:15 | Break                  |                                      |
 | 15:15-16:00 | Hierarchical clustering |                                     |
