@@ -11,22 +11,77 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Data
 
-We will use data from the 2009 British Social Attitudes Survey. You can find the data [here](bsas_short.RData).
+We will use data from the 2009 British Social Attitudes Survey. You can download the data [here](bsas_short.RData).
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Our response variable is:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+- **imm_brit**: Out of every 100 people in Britain, how many do you think are immigrants from non-western countries?
 
-```{r cars}
-summary(cars)
+We will use the following predictors:
+
+- **resp_female**: Is the respondent female?
+- **resp_age**: Age of the respondent
+- **resp_household_size**: How many people live in respondent's household?
+- **resp_party_cons**: Respondent is most likely to support the Conservative Party
+- **resp_party_lab**: Respondent is most likely to support the Labour Party
+- **resp_party_libdem**: Respondent is most likely to support the Liberal Democratic Party
+- **resp_party_snp**: Respondent is most likely to support the Scottish National Party
+- **resp_party_green**: Respondent is most likely to support the Green Party
+- **resp_party_ukip**: Respondent is most likely to support the UK Independence Party
+- **resp_party_bnp**: Respondent is most likely to support the British National Party
+- **resp_party_other**: Respondent is most likely to support another party, no party, refused to say, or did not know
+- **resp_newspaper**: Respondent normally reads a daily newspaper
+- **resp_internet_hrs**: Hours the respondent spends using the internet (per week)
+- **resp_religious**: Respondent regards himself/herself belonging to a particular religion
+- **resp_time_current_employment**: Months respondent has spent with current employer
+- **resp_urban_area**: Population density
+- **resp_health**: Respondent's health
+- **resp_household_income**: Total income of respondent's household
+
+Let's have a look at the distribution of the response variable (the red dashed line shows the true number of non-Western immigrants):
+
+```{r, echo=FALSE, message=FALSE}
+library(foreign)
+library(dplyr)
+library(ggplot2)
+
+load("bsas_short.RData")
+
+response_count <- data_raw %>%
+  dplyr::group_by(imm_brit) %>%
+  dplyr::summarise(no_imm_count = n()) %>%
+  data.frame()
+
+nw_immi <- 100 * (6.973 / 65.14)  # True number of non-western immigrants in the UK
+
+bar_plot <- ggplot(data = response_count,
+                   aes(x = imm_brit, y = no_imm_count)) +
+  geom_vline(xintercept = nw_immi, colour = "red", linetype = "dashed") +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  geom_text(aes(label = no_imm_count),
+            position = position_dodge(width = 0.9), vjust = -0.5, size = 2) +
+  scale_x_continuous(name = "Estimated number of non-Western immigrants") +
+  scale_y_continuous(name = "Number of respondents") +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 10, margin = margin(t = 5, b = 5)),
+        axis.text.y = element_text(size = 10, margin = margin(l = 5, r = 5)),
+        axis.title.x = element_text(size = 12),
+        axis.title.y = element_text(size = 12))
+
+bar_plot
 ```
 
-## Including Plots
+The plot shows that 759 of 1049 respondents (or 72.4%) overestimate the percentage of non-Western immigrants in the UK.
 
-You can also embed plots, for example:
+## Data Preparation
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r, echo=TRUE, message=FALSE}
+library(foreign)
+library(dplyr)
+
+# Load data set
+load("bsas_short.RData")
+
+# Declare factor variables
+
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
