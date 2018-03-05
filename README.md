@@ -39,11 +39,11 @@ The first session will provide an introduction to machine learning. We will disc
 | 14:45-15:15 | Break                |                                        |
 | 15:15-15:45 | Shrinkage methods I: Ridge regression | [Slides](slides/Wuest_ML_2018_S1d.pdf) |
 | 15:45-16:15 | Shrinkage methods II: The Lasso       | [Slides](slides/Wuest_ML_2018_S1e.pdf) |
-| 16:15-17:00 | Applications of Ridge regression and the Lasso |              |
+| 16:15-17:00 | Applications of Ridge regression and the Lasso | [Lab](test.html) |
 
 #### Main Readings
 
-- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 (pp. 15-42) and 6 (pp. 214-228)
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 2 (pp. 15-42) and Ch. 6 (pp. 214-228)
 
 #### Recommended Readings
 
