@@ -1,9 +1,10 @@
 ---
-title: "RStudio and RMarkdown"
-author: "Reto Wüest"
-date: "June 26, 2017"
+layout: default
+title: "Test Lab"
+output: html_document
+---
 
-# Lab: Ridge Regression and the Lasso 2
+# Lab: Ridge Regression and the Lasso
 
 ```{r}
 1 + 1
