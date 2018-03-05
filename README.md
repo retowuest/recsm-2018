@@ -27,7 +27,7 @@ A PDF of the syllabus is available [here](syllabus/syllabus_ml_2018.pdf).
 
 #### March 6, 2018, 13:00-17:00
 
-The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (Ridge regression and the Lasso).
+The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (ridge regression and the Lasso).
 
 #### Class Schedule
 
