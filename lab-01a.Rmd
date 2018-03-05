@@ -10,6 +10,6 @@ knitr::opts_knit$set(global.par = TRUE)
 
 # Lab: Ridge Regression and the Lasso
 
-```{r}
+```{r, echo = TRUE}
 1 + 1
 ```
