@@ -1,5 +1,5 @@
 ---
-title: 'Lab: Ridge Regression and the Lasso'
+title: "Ridge Regression and the Lasso"
 author: "Reto Wüest"
 date: "3/5/2018"
 output: html_document
