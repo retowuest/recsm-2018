@@ -3,11 +3,6 @@ layout: default
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_knit$set(global.par = TRUE)
-```
-
 # Lab: Ridge Regression and the Lasso
 
 ```{r, echo = TRUE}
