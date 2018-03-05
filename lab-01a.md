@@ -5,6 +5,6 @@ output: html_document
 
 # Lab: Ridge Regression and the Lasso
 
-```{r, echo = TRUE}
+```{r}
 1 + 1
 ```
