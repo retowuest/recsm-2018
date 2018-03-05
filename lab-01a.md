@@ -5,6 +5,6 @@ date: "June 26, 2017"
 
 # Lab: Ridge Regression and the Lasso 2
 
-```r
+```{r}
 1 + 1
 ```
