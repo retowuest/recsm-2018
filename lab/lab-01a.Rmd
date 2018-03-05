@@ -47,12 +47,12 @@ library(ggplot2)
 
 load("bsas_short.RData")
 
-response_count <- data_raw %>%
+response_count <- bsas_data %>%
   dplyr::group_by(imm_brit) %>%
   dplyr::summarise(no_imm_count = n()) %>%
   data.frame()
 
-nw_immi <- 100 * (6.973 / 65.14)  # True number of non-western immigrants in the UK
+nw_immi <- 100 * (6.973 / 65.14)  # True percentage of non-western immigrants in the UK
 
 bar_plot <- ggplot(data = response_count,
                    aes(x = imm_brit, y = no_imm_count)) +
@@ -60,7 +60,7 @@ bar_plot <- ggplot(data = response_count,
   geom_bar(stat = "identity", position = position_dodge()) +
   geom_text(aes(label = no_imm_count),
             position = position_dodge(width = 0.9), vjust = -0.5, size = 2) +
-  scale_x_continuous(name = "Estimated number of non-Western immigrants") +
+  scale_x_continuous(name = "Estimated percentage of non-Western immigrants") +
   scale_y_continuous(name = "Number of respondents") +
   theme_bw() +
   theme(axis.text.x = element_text(size = 10, margin = margin(t = 5, b = 5)),
