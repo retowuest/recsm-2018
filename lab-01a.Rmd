@@ -1,10 +1,5 @@
 ---
-title: "Test lab"
-author: "Reto Wüest"
-date: "June 26, 2017"
-output:
-  html_document: default
-  pdf_document: default
+layout: default
 ---
 
 # Lab: Ridge Regression and the Lasso
