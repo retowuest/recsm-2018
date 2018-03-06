@@ -2,7 +2,9 @@
 title: "Ridge Regression and the Lasso"
 author: "Reto Wüest"
 date: "3/5/2018"
-output: html_document
+output:
+  html_document:
+    highlight: textmate
 ---
 
 ```{r setup, include=FALSE}
@@ -95,15 +97,28 @@ bsas_data <- bsas_data %>%
 
 We will use the `glmnet()` function from the `glmnet` package to perform ridge regression and the Lasso. Before doing so, we use the `model.matrix()` function to create a matrix of predictors. This function automatically transforms any qualitative variables into dummy variables. This is important because `glmnet()` can only take quantitative inputs.
 
-We remove the intercept from the matrix produced by `model.matrix()` because `glmnet()` will automatically include an intercept. We also exclude the predictor **resp_party_cons**, which will serve as the baseline.
+We remove the intercept from the matrix produced by `model.matrix()` because `glmnet()` will automatically include an intercept. We also exclude the predictor **resp_party_cons**, which will serve as the baseline in our model.
 
 ```{r, echo=TRUE}
 # Matrix of predictors (remove the intercept and resp_party_cons)
 x <- model.matrix(imm_brit ~ . -1 -resp_party_cons, bsas_data)
+
+# Response variable
+y <- bsas_data$imm_brit
 ```
 
 ## Ridge Regression
 
-The `glmnet()` function has an `alpha` argument that determines what type of model is fit. If `alpha = 0`, then a ridge regression model is fit, and if `alpha = 1`, then a Lasso model is fit. We first fit a ridge regression model.
+The `glmnet()` function has an `alpha` argument that determines what type of model is fit. If `alpha = 0`, then a ridge regression model is fit, and if `alpha = 1`, then a Lasso model is fit. We first fit a ridge regression model to our data. Note that by default, the `glmnet()` function standardizes the variables so that they are on the same scale.
+
+```{r, echo=TRUE, message=FALSE}
+library(glmnet)
+
+# Define grid of lambda values
+grid <- 10^seq(10, -2, length = 100)
+
+# Fit ridge regression models using the glmnet function
+ridge_model <- glmnet(x, y, alpha = 0, lambda = grid)
+```
 
 ## The Lasso
