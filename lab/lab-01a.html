@@ -353,14 +353,23 @@ load(&quot;bsas_short.RData&quot;)
 # Declare factor variables
 bsas_data &lt;- bsas_data %&gt;%
   dplyr::mutate(resp_urban_area = factor(resp_urban_area,
-                                         levels = c(&quot;rural&quot;, &quot;rather rural&quot;,
+                                         levels = 1:4,
+                                         labels = c(&quot;rural&quot;, &quot;rather rural&quot;,
                                                     &quot;rather urban&quot;, &quot;urban&quot;)),
-                resp_health = factor(resp_health, levels = c(&quot;bad&quot;, &quot;fair&quot;,
-                                                             &quot;fairly good&quot;, &quot;good&quot;)))
-
-# Standardize quantitative predictors
-cat_vars &lt;- unlist(lapply(bsas_data, function(x) is.factor(x) | all(x == 0 | x == 1, na.rm = TRUE)))
-bsas_data[, !cat_vars] &lt;- apply(bsas_data[, !cat_vars], 2, scale)</code></pre>
+                resp_health = factor(resp_health,
+                                     levels = 1:4,
+                                     labels = c(&quot;bad&quot;, &quot;fair&quot;, &quot;fairly good&quot;, &quot;good&quot;)))</code></pre>
+<p>We will use the <code>glmnet()</code> function from the <code>glmnet</code> package to perform ridge regression and the Lasso. Before doing so, we use the <code>model.matrix()</code> function to create a matrix of predictors. This function automatically transforms any qualitative variables into dummy variables. This is important because <code>glmnet()</code> can only take quantitative inputs.</p>
+<p>We remove the intercept from the matrix produced by <code>model.matrix()</code> because <code>glmnet()</code> will automatically include an intercept. We also exclude the predictor <strong>resp_party_cons</strong>, which will serve as the baseline.</p>
+<pre class="r"><code># Matrix of predictors (remove the intercept and resp_party_cons)
+x &lt;- model.matrix(imm_brit ~ . -1 -resp_party_cons, bsas_data)</code></pre>
+</div>
+<div id="ridge-regression" class="section level2">
+<h2>Ridge Regression</h2>
+<p>The <code>glmnet()</code> function has an <code>alpha</code> argument that determines what type of model is fit. If <code>alpha = 0</code>, then a ridge regression model is fit, and if <code>alpha = 1</code>, then a Lasso model is fit. We first fit a ridge regression model.</p>
+</div>
+<div id="the-lasso" class="section level2">
+<h2>The Lasso</h2>
 </div>
 
 

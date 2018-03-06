@@ -85,14 +85,25 @@ load("bsas_short.RData")
 # Declare factor variables
 bsas_data <- bsas_data %>%
   dplyr::mutate(resp_urban_area = factor(resp_urban_area,
-                                         levels = c("rural", "rather rural",
+                                         levels = 1:4,
+                                         labels = c("rural", "rather rural",
                                                     "rather urban", "urban")),
-                resp_health = factor(resp_health, levels = c("bad", "fair",
-                                                             "fairly good", "good")))
-
-# Standardize quantitative predictors
-cat_vars <- unlist(lapply(bsas_data, function(x) is.factor(x) | all(x == 0 | x == 1, na.rm = TRUE)))
-bsas_data[, !cat_vars] <- apply(bsas_data[, !cat_vars], 2, scale)
+                resp_health = factor(resp_health,
+                                     levels = 1:4,
+                                     labels = c("bad", "fair", "fairly good", "good")))
 ```
 
+We will use the `glmnet()` function from the `glmnet` package to perform ridge regression and the Lasso. Before doing so, we use the `model.matrix()` function to create a matrix of predictors. This function automatically transforms any qualitative variables into dummy variables. This is important because `glmnet()` can only take quantitative inputs.
 
+We remove the intercept from the matrix produced by `model.matrix()` because `glmnet()` will automatically include an intercept. We also exclude the predictor **resp_party_cons**, which will serve as the baseline.
+
+```{r, echo=TRUE}
+# Matrix of predictors (remove the intercept and resp_party_cons)
+x <- model.matrix(imm_brit ~ . -1 -resp_party_cons, bsas_data)
+```
+
+## Ridge Regression
+
+The `glmnet()` function has an `alpha` argument that determines what type of model is fit. If `alpha = 0`, then a ridge regression model is fit, and if `alpha = 1`, then a Lasso model is fit. We first fit a ridge regression model.
+
+## The Lasso
