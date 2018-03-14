@@ -48,8 +48,8 @@ The first session will provide an introduction to machine learning. We will disc
 #### Recommended Readings
 
 - James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 5 (pp. 175-186)
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 3 and 7
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and 13
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 3 and Ch. 7
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 5 and Ch. 13
 - Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
 
 ### Session 2: Classification and Regression Trees (CART)
@@ -76,7 +76,7 @@ The second session will deal with tree-based methods, which are another importan
 
 #### Recommended Readings
 
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 9, 10, and 15
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 9, Ch. 10, and Ch. 15
 - Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 18
 - Lantz, *Machine Learning with R*, Ch. 11
 
@@ -105,7 +105,7 @@ In the third session, we will move to unsupervised machine learning methods. We 
 #### Recommended Readings
 
 - Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 14
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 22 and 23
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 22 and Ch. 23
 - Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
 - Barber, [*Bayesian Reasoning and Machine Learning*](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage), Ch. 15
 - Lantz, *Machine Learning with R*, Ch. 9
