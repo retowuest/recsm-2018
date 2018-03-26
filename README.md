@@ -66,7 +66,7 @@ The second session will deal with tree-based methods, which are another importan
 | 13:30-14:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S2b.pdf) |
 | 14:00-14:45 | Bagging, random forests | [Slides](slides/Wuest_ML_2018_S2c.pdf) |
 | 14:45-15:15 | Break                  |                                      |
-| 15:15-16:00 | Boosting               |                                      |
+| 15:15-16:00 | Boosting               | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
 | 16:00-16:30 | Application 1: Random forests |                               |
 | 16:30-17:00 | Application 2: Boosting |                                     |
 
