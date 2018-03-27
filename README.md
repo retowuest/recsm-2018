@@ -68,7 +68,7 @@ The second session will deal with tree-based methods, which are another importan
 | 14:45-15:15 | Break                  |                                      |
 | 15:15-16:00 | Boosting               | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
 | 16:00-16:30 | Application 1: Regression and Classification Trees | [Lab](lab/lab-02a.html) |
-| 16:30-17:00 | Application 2: Bagging, Random forests, Boosting |                                     |
+| 16:30-17:00 | Application 2: Bagging, Random forests, Boosting | [Lab](lab/lab-02b.html) |
 
 #### Main Readings
 

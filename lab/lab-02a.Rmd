@@ -11,9 +11,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ## Data
 
-We will use data from the post-election survey of the $2005$ British Election Study (BES). You can download the data [here](bes_2005.RData). For more information on the BES, please visit <http://www.britishelectionstudy.com/>.
+We will use data from the post-election survey of the 2005 British Election Study (BES). You can download the data [here](bes_2005.RData). For more information on the BES, please visit <http://www.britishelectionstudy.com/>.
 
 Our data set includes the following variables:
 
@@ -165,7 +166,6 @@ tree_3_pred <- predict(tree_3, newdata = bes_2005_test)
 
 # MSE
 household_income_test <- bes_2005$household_income[-train]
-
 mean((tree_3_pred - household_income_test)^2)
 ```
 
