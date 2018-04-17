@@ -94,7 +94,7 @@ In the third session, we will move to unsupervised machine learning methods. We 
 | 13:30-14:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S3b.pdf) |
 | 14:15-14:45 | *K*-means clustering   | [Slides](slides/Wuest_ML_2018_S3c.pdf) |
 | 14:45-15:15 | Break                  |                                      |
-| 15:15-16:00 | Hierarchical clustering |                                     |
+| 15:15-16:00 | Hierarchical clustering | [Slides](slides/Wuest_ML_2018_S3d.pdf) |
 | 16:00-16:30 | Application 1: PCA     |                                      |
 | 16:30-17:00 | Application 2: Clustering methods |                                      |
 
