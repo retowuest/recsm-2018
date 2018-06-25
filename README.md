@@ -27,19 +27,19 @@ A PDF of the syllabus is available [here](syllabus/syllabus-recsm-ml-2018.pdf).
 
 #### July 2, 2018, 9:00-13:00
 
-The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (ridge regression and the Lasso).
+The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know a first class of important supervised learning methods, namely shrinkage methods (ridge regression and the lasso).
 
 #### Class Schedule
 
 | Time        | Topic                | Materials                              |
 |:----------- |:-------------------- |:-------------------------------------- |
-| 13:00-13:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
-| 13:30-14:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
-| 14:00-14:45 | Assessing model accuracy | [Slides](slides/Wuest_ML_2018_S1c.pdf) |
-| 14:45-15:15 | Break                |                                        |
-| 15:15-15:45 | Shrinkage methods I: Ridge regression | [Slides](slides/Wuest_ML_2018_S1d.pdf) |
-| 15:45-16:15 | Shrinkage methods II: The Lasso       | [Slides](slides/Wuest_ML_2018_S1e.pdf) |
-| 16:15-17:00 | Applications of ridge regression and the Lasso | [Lab](lab/lab-01a.html) |
+| 09:00-09:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
+| 09:30-10:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
+| 10:00-10:45 | Assessing model accuracy | [Slides](slides/Wuest_ML_2018_S1c.pdf) |
+| 10:45-11:15 | Break                |                                        |
+| 11:15-11:45 | Shrinkage methods I: ridge regression | [Slides](slides/Wuest_ML_2018_S1d.pdf) |
+| 11:45-12:15 | Shrinkage methods II: the lasso       | [Slides](slides/Wuest_ML_2018_S1e.pdf) |
+| 12:15-13:00 | Applications of ridge regression and the lasso | [Lab](lab/lab-01a.html) |
 
 #### Main Readings
 
