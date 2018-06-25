@@ -21,11 +21,11 @@ Participants are expected to have a solid understanding of linear and binary reg
 
 ## Schedule
 
-A PDF of the syllabus is available [here](syllabus/syllabus_ml_2018.pdf).
+A PDF of the syllabus is available [here](syllabus/syllabus-recsm-ml-2018.pdf).
 
 ### Session 1: Introduction to Machine Learning
 
-#### March 6, 2018, 13:00-17:00
+#### July 2, 2018, 9:00-13:00
 
 The first session will provide an introduction to machine learning. We will discuss the goals of machine learning (prediction, inference, or both), the difference between supervised and unsupervised machine learning, the problem of overfitting, and the bias-variance trade-off. We will then get to know the first class of important supervised learning methods, namely shrinkage methods (ridge regression and the Lasso).
 
@@ -54,7 +54,7 @@ The first session will provide an introduction to machine learning. We will disc
 
 ### Session 2: Classification and Regression Trees (CART)
 
-#### March 27, 2018, 13:00-17:00
+#### July 3, 2018, 9:00-13:00
 
 The second session will deal with tree-based methods, which are another important and highly flexible class of supervised learning methods. After an introduction to the basics of decision trees and a general discussion of the advantages and disadvantages of tree-based models, we will look at three specific widely-used tree-based methods: bagging, random forests, and boosting.
 
@@ -65,10 +65,10 @@ The second session will deal with tree-based methods, which are another importan
 | 13:00-13:30 | Introduction to classification and regression trees | [Slides](slides/Wuest_ML_2018_S2a.pdf) |
 | 13:30-14:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S2b.pdf) |
 | 14:00-14:45 | Bagging, random forests | [Slides](slides/Wuest_ML_2018_S2c.pdf) |
-| 14:45-15:15 | Break                  |                                      |
-| 15:15-16:00 | Boosting               | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
+| 14:45-15:15 | Break                   |                                      |
+| 15:15-16:00 | Boosting                | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
 | 16:00-16:30 | Application 1: Regression and Classification Trees | [Lab](lab/lab-02a.html) |
-| 16:30-17:00 | Application 2: Bagging, Random forests, Boosting | [Lab](lab/lab-02b.html) |
+| 16:30-17:00 | Application 2: Bagging, Random forests, Boosting   | [Lab](lab/lab-02b.html) |
 
 #### Main Readings
 
@@ -82,7 +82,7 @@ The second session will deal with tree-based methods, which are another importan
 
 ### Session 3: Unsupervised Learning
 
-#### April 17, 2018, 13:00-17:00
+#### July 4, 2018, 9:00-13:00
 
 In the third session, we will move to unsupervised machine learning methods. We will cover two important unsupervised learning techniques: principal components analysis (PCA) and clustering analysis (*K*-means clustering and hierarchical clustering).
 
@@ -92,10 +92,10 @@ In the third session, we will move to unsupervised machine learning methods. We 
 |:----------- |:-------------------- |:-------------------------------------- |
 | 13:00-13:30 | Introduction to unsupervised learning | [Slides](slides/Wuest_ML_2018_S3a.pdf) |
 | 13:30-14:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S3b.pdf) |
-| 14:15-14:45 | *K*-means clustering   | [Slides](slides/Wuest_ML_2018_S3c.pdf) |
-| 14:45-15:15 | Break                  |                                      |
+| 14:15-14:45 | *K*-means clustering    | [Slides](slides/Wuest_ML_2018_S3c.pdf) |
+| 14:45-15:15 | Break                   |                                      |
 | 15:15-16:00 | Hierarchical clustering | [Slides](slides/Wuest_ML_2018_S3d.pdf) |
-| 16:00-16:30 | Application 1: PCA     | [Lab](lab/lab-03a.html) |
+| 16:00-16:30 | Application 1: PCA      | [Lab](lab/lab-03a.html) |
 | 16:30-17:00 | Application 2: Clustering methods |                                      |
 
 #### Main Readings
