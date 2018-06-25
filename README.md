@@ -31,9 +31,9 @@ The first session will provide an introduction to machine learning. We will disc
 
 #### Class Schedule
 
-| Time        | Topic                | Materials                              |
-|:----------- |:-------------------- |:-------------------------------------- |
-| 09:00-09:30 | Course overview      | [Slides](slides/Wuest_ML_2018_S1a.pdf) |
+| Time        | Topic                | Materials                                     |
+|:----------- |:-------------------- |:--------------------------------------------- |
+| 09:00-09:30 | Course overview      | [Slides](slides/slides-recsm-ml-2018-s11.pdf) |
 | 09:30-10:00 | General introduction | [Slides](slides/Wuest_ML_2018_S1b.pdf) |
 | 10:00-10:45 | Assessing model accuracy | [Slides](slides/Wuest_ML_2018_S1c.pdf) |
 | 10:45-11:15 | Break                |                                        |
