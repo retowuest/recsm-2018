@@ -90,22 +90,22 @@ In the third session, we will move to unsupervised machine learning methods. We 
 
 | Time        | Topic                | Materials                              |
 |:----------- |:-------------------- |:-------------------------------------- |
-| 13:00-13:30 | Introduction to unsupervised learning | [Slides](slides/Wuest_ML_2018_S3a.pdf) |
-| 13:30-14:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S3b.pdf) |
-| 14:15-14:45 | *K*-means clustering    | [Slides](slides/Wuest_ML_2018_S3c.pdf) |
-| 14:45-15:15 | Break                   |                                      |
-| 15:15-16:00 | Hierarchical clustering | [Slides](slides/Wuest_ML_2018_S3d.pdf) |
-| 16:00-16:30 | Application 1: PCA      | [Lab](lab/lab-03a.html) |
-| 16:30-17:00 | Application 2: Clustering methods |                                      |
+| 09:00-09:30 | Introduction to unsupervised learning | [Slides](slides/Wuest_ML_2018_S3a.pdf) |
+| 09:30-10:15 | Principal components analysis (PCA) | [Slides](slides/Wuest_ML_2018_S3b.pdf) |
+| 10:15-10:45 | *K*-means clustering    | [Slides](slides/Wuest_ML_2018_S3c.pdf) |
+| 10:45-11:15 | Break                   |                                      |
+| 11:15-12:00 | Hierarchical clustering | [Slides](slides/Wuest_ML_2018_S3d.pdf) |
+| 12:00-12:30 | Application 1: PCA      | [Lab](lab/lab-03a.html) |
+| 12:30-13:00 | Application 2: clustering methods |                                      |
 
 #### Main Readings
 
-- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 10
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), ch. 10
 
 #### Recommended Readings
 
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 14
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 22 and Ch. 23
-- Bishop, *Pattern Recognition and Machine Learning*, Ch. 12
-- Barber, [*Bayesian Reasoning and Machine Learning*](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage), Ch. 15
-- Lantz, *Machine Learning with R*, Ch. 9
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), ch. 14
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), ch. 22 and ch. 23
+- Bishop, *Pattern Recognition and Machine Learning*, ch. 12
+- Barber, [*Bayesian Reasoning and Machine Learning*](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage), ch. 15
+- Lantz, *Machine Learning with R*, ch. 9
