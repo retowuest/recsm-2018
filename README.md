@@ -62,23 +62,23 @@ The second session will deal with tree-based methods, which are another importan
 
 | Time        | Topic                | Materials                              |
 |:----------- |:-------------------- |:-------------------------------------- |
-| 13:00-13:30 | Introduction to classification and regression trees | [Slides](slides/Wuest_ML_2018_S2a.pdf) |
-| 13:30-14:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S2b.pdf) |
-| 14:00-14:45 | Bagging, random forests | [Slides](slides/Wuest_ML_2018_S2c.pdf) |
-| 14:45-15:15 | Break                   |                                      |
-| 15:15-16:00 | Boosting                | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
-| 16:00-16:30 | Application 1: Regression and Classification Trees | [Lab](lab/lab-02a.html) |
-| 16:30-17:00 | Application 2: Bagging, Random forests, Boosting   | [Lab](lab/lab-02b.html) |
+| 09:00-09:30 | Introduction to classification and regression trees | [Slides](slides/Wuest_ML_2018_S2a.pdf) |
+| 09:30-10:00 | Advantages and disadvantages of trees | [Slides](slides/Wuest_ML_2018_S2b.pdf) |
+| 10:00-10:45 | Bagging, random forests | [Slides](slides/Wuest_ML_2018_S2c.pdf) |
+| 10:45-11:15 | Break                   |                                      |
+| 11:15-12:00 | Boosting                | [Slides](slides/Wuest_ML_2018_S2d.pdf) |
+| 12:00-12:30 | Application 1: Regression and Classification Trees | [Lab](lab/lab-02a.html) |
+| 12:30-13:00 | Application 2: Bagging, Random forests, Boosting   | [Lab](lab/lab-02b.html) |
 
 #### Main Readings
 
-- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), Ch. 8
+- James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), ch. 8
 
 #### Recommended Readings
 
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), Ch. 9, Ch. 10, and Ch. 15
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), Ch. 18
-- Lantz, *Machine Learning with R*, Ch. 11
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), ch. 9, ch. 10, and ch. 15
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), ch. 18
+- Lantz, *Machine Learning with R*, ch. 11
 
 ### Session 3: Unsupervised Learning
 
