@@ -2,7 +2,7 @@
 
 ## Instructor
 
-[Reto Wüest](http://retowuest.net/) (<reto.wuest@unige.ch>)<br />
+[Reto Wüest](http://retowuest.net/) [<reto.wuest@unige.ch>]<br />
 University of Geneva
 
 ## Course Description
