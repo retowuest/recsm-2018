@@ -1,4 +1,4 @@
-# Introduction to Machine Learning
+# Machine Learning for Social Sciences
 
 ## Instructor
 
