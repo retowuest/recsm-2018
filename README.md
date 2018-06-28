@@ -48,8 +48,8 @@ The first session will provide an introduction to machine learning. We will disc
 #### Recommended Readings
 
 - James et al., [*An Introduction to Statistical Learning*](http://www-bcf.usc.edu/~gareth/ISL/), ch. 5 (pp. 175-186)
-- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), ch. 3 and ch. 7
-- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), ch. 5 and ch. 13
+- Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), ch. 2, ch. 3, and ch. 7
+- Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), ch. 2, ch. 5, and ch. 13
 - Bishop, *Pattern Recognition and Machine Learning*, ch. 12
 
 ### Session 2: Classification and Regression Trees (CART)
