@@ -39,7 +39,8 @@ The first session will provide an introduction to machine learning. We will disc
 | 10:45-11:15 | Break                |                                                         |
 | 11:15-11:45 | Shrinkage methods I: ridge regression | [Slides](slides/slides-recsm-ml-2018-s14.pdf) |
 | 11:45-12:15 | Shrinkage methods II: the lasso       | [Slides](slides/slides-recsm-ml-2018-s15.pdf) |
-| 12:15-13:00 | Applications of ridge regression and the lasso | [Lab](lab/lab-recsm-ml-2018-s1.html) |
+| 12:15-13:00 | Applications of ridge regression and the lasso | [Lab Problem Set](lab/lab-recsm-ml-2018-s1-prob.html) |
+|             |                                                | [Lab Solutions](lab/lab-recsm-ml-2018-s1-sol.html) |
 
 #### Main Readings
 

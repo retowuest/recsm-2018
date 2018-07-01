@@ -119,12 +119,12 @@ The goal of the first exercise is to fit a ridge regression to our data.
 ### Problem 1.1
 
 a. Split the data into a training set and a test set.
-b. Define a vector of values for the tuning parameter $\lambda$. Use the training set to fit a ridge regression for each $\lambda$ value. *Hint:* You can use the `glmnet()` function in the `glmnet` package. The `glmnet()` function has an `alpha` argument that determines what type of model is fit. If `alpha = 0`, then a ridge regression model is fit, and if `alpha = 1`, then a lasso model is fit.
+b. Define a vector of values for the tuning parameter $\lambda$. Use the training set to fit a ridge regression for each $\lambda$ value. You can do this by using the `glmnet()` function in the `glmnet` package. The `glmnet()` function has an `alpha` argument that determines what type of model is fit. If `alpha = 0`, then a ridge regression model is fit, and if `alpha = 1`, then a lasso model is fit.
 c. Use the `plot()` function to create a graph that shows the shrinkage of the coefficient estimates as a function of $\lambda$.
 
 ### Problem 1.2
 
-a. Perform cross-validation on the trainig set to choose the optimal tuning parameter $\lambda$. You can do this by using the cross-validation function `cv.glmnet()` in the `glmnet` package. Use the `plot()` function to create a graph that shows the CV error associated with each value of $\lambda$.
+a. Perform cross-validation on the trainig set to choose the optimal tuning parameter $\lambda$. You can do this by using the cross-validation function `cv.glmnet()` in the `glmnet` package. Use the `plot()` function to create a graph that shows the CV estimate of the expected test MSE associated with each value of $\lambda$.
 b. Find the optimal value of $\lambda$. Use the test set to estimate the test error associated with the optimal model.
 c. Re-fit the ridge regression model on the full data set, using the optimal value of $\lambda$.
 

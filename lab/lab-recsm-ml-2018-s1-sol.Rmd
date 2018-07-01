@@ -167,7 +167,7 @@ We use cross-validation to choose the optimal tuning parameter $\lambda$. We do 
 ridge_cv_out <- cv.glmnet(x[train, ], y[train], alpha = 0, lambda = grid, nfolds = 5)
 ```
 
-We then use the `plot()` function to create a graph that shows the CV error associated with each value of $\lambda$.
+We then use the `plot()` function to create a graph that shows the CV estimate of the expected test MSE associated with each value of $\lambda$.
 
 ```{r, echo=TRUE}
 # Plot MSE associated with each lambda value
@@ -193,6 +193,8 @@ ridge_out_pred_ls <- predict(ridge_out, s = 0, x = x[train, ], y = y[train],
 mean((ridge_out_pred_ls - y_test)^2)
 ```
 
+For this data set, ridge regression actually increases the test error. In a case like this we might simply use the least squares solution.
+
 Finally, we re-fit our ridge regression model on the full data set, using the optimal value of $\lambda$.
 
 ```{r, echo=TRUE}
@@ -216,7 +218,7 @@ lasso_out <- glmnet(x[train, ], y[train], alpha = 1, lambda = grid)
 plot(lasso_out, xvar = "lambda", label = TRUE)
 ```
 
-We now perform cross-validation, plot the estimated test MSE for each lambda, and use the test set to estimate the test error for the model with the optimal $\lambda$.
+We now perform cross-validation, plot the CV estimate of the expected test MSE for each lambda, and use the test set to compute the test error for the model with the optimal $\lambda$.
 
 ```{r, echo=TRUE}
 set.seed(1234)
