@@ -1,5 +1,5 @@
 ---
-title: "Ridge Regression and the Lasso"
+title: "Lab: Ridge Regression and the Lasso"
 author: "Reto Wüest"
 date: "June 29, 2018"
 output:
