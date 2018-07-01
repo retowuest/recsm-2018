@@ -96,7 +96,7 @@ In the third session, we will move to unsupervised machine learning methods. We 
 | 10:45-11:15 | Break                   |                                      |
 | 11:15-12:00 | Hierarchical clustering | Slides |
 | 12:00-12:30 | Application 1: PCA      | Lab |
-| 12:30-13:00 | Application 2: clustering methods |                                      |
+| 12:30-13:00 | Application 2: clustering methods | Lab |
 
 #### Main Readings
 
