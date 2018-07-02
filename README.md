@@ -78,7 +78,7 @@ The second session will deal with tree-based methods, which are another importan
 
 - Hastie et al., [*The Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/), ch. 9, ch. 10, and ch. 15
 - Shalev-Shwartz and Ben-David, [*Understanding Machine Learning*](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/), ch. 18
-- Lantz, *Machine Learning with R*, ch. 11
+- Lantz, *Machine Learning with R*, ch. 5
 
 ### Session 3: Unsupervised Learning
 
