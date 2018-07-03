@@ -11,6 +11,7 @@
 
 <meta name="author" content="Reto Wüest" />
 
+<meta name="date" content="2018-07-03" />
 
 <title>Bagging, Random forests, Boosting</title>
 
@@ -303,7 +304,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Bagging, Random forests, Boosting</h1>
 <h4 class="author"><em>Reto Wüest</em></h4>
-<h4 class="date"><em>3/26/2018</em></h4>
+<h4 class="date"><em>July 03, 2018</em></h4>
 
 </div>
 
@@ -344,6 +345,9 @@ bag_1_pred &lt;- predict(bag_1, newdata = bes_2005_test)
 household_income_test &lt;- bes_2005$household_income[-train]
 mean((bag_1_pred - household_income_test)^2)</code></pre>
 <pre><code>## [1] 11.3849</code></pre>
+</div>
+<div id="random-forest" class="section level2">
+<h2>Random Forest</h2>
 <p>Growing a random forest proceeds in exactly the same way, except that we use a smaller value of the <code>mtry</code> argument. By default, <code>randomForest()</code> uses <span class="math inline">\(p/3\)</span> variables when building a random forest of regression trees, and <span class="math inline">\(\sqrt{p}\)</span> variables when building a random forest of classification trees. Here we use <code>mtry = 3</code>.</p>
 <pre class="r"><code># Random forest
 set.seed(1234)

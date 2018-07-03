@@ -1,7 +1,7 @@
 ---
 title: "Regression and Classification Trees"
 author: "Reto Wüest"
-date: "3/26/2018"
+date: "July 03, 2018"
 output:
   html_document:
     highlight: textmate
@@ -70,7 +70,7 @@ If we type the name of the tree object, `R` prints output corresponding to each 
 tree_1
 ```
 
-In order to evaluate the performance of the classification tree, we must estimate the test error rather than simply computing the training error. We split the observations into a training set and a test set, build the tree using the training set, and evaluate its performance on the test data (validation set approach).
+In order to evaluate the performance of the classification tree, we must estimate the test error rather than simply computing the training error. We split the observations into a training set and a test set, build the tree using the training set, and evaluate its performance on the test data.
 
 ```{r, echo=TRUE}
 set.seed(1234)

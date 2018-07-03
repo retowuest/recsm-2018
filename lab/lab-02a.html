@@ -11,6 +11,7 @@
 
 <meta name="author" content="Reto Wüest" />
 
+<meta name="date" content="2018-07-03" />
 
 <title>Regression and Classification Trees</title>
 
@@ -303,7 +304,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Regression and Classification Trees</h1>
 <h4 class="author"><em>Reto Wüest</em></h4>
-<h4 class="date"><em>3/26/2018</em></h4>
+<h4 class="date"><em>July 03, 2018</em></h4>
 
 </div>
 
@@ -380,7 +381,7 @@ tree_1</code></pre>
 ##      7) vote_2001: 1 679  519.90 1 ( 0.12813 0.87187 )  
 ##       14) duty: 1 321  144.30 1 ( 0.05919 0.94081 ) *
 ##       15) duty: 2 358  348.10 1 ( 0.18994 0.81006 ) *</code></pre>
-<p>In order to evaluate the performance of the classification tree, we must estimate the test error rather than simply computing the training error. We split the observations into a training set and a test set, build the tree using the training set, and evaluate its performance on the test data (validation set approach).</p>
+<p>In order to evaluate the performance of the classification tree, we must estimate the test error rather than simply computing the training error. We split the observations into a training set and a test set, build the tree using the training set, and evaluate its performance on the test data.</p>
 <pre class="r"><code>set.seed(1234)
 
 # Create training and test sets

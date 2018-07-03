@@ -1,7 +1,7 @@
 ---
 title: "Bagging, Random forests, Boosting"
 author: "Reto Wüest"
-date: "3/26/2018"
+date: "July 03, 2018"
 output:
   html_document:
     highlight: textmate
@@ -45,6 +45,8 @@ bag_1_pred <- predict(bag_1, newdata = bes_2005_test)
 household_income_test <- bes_2005$household_income[-train]
 mean((bag_1_pred - household_income_test)^2)
 ```
+
+## Random Forest
 
 Growing a random forest proceeds in exactly the same way, except that we use a smaller value of the `mtry` argument. By default, `randomForest()` uses $p/3$ variables when building a random forest of regression trees, and $\sqrt{p}$ variables when building a random forest of classification trees. Here we use `mtry = 3`.
 
