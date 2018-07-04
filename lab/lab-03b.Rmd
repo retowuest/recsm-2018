@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This exercise is based on James et al. 2013, chapter 10.5.
 
-## $K*-Means Clustering
+## *K*-Means Clustering
 
 We start with *K*-means clustering. We try to dermine whether there are groups of similar observations in our data. We need to decide ex-ante how many clusters we are looking for.
 
