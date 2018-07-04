@@ -95,8 +95,8 @@ In the third session, we will move to unsupervised machine learning methods. We 
 | 10:15-10:45 | *K*-means clustering    | [Slides](slides/slides-recsm-ml-2018-s33.pdf) |
 | 10:45-11:15 | Break                   |                                      |
 | 11:15-12:00 | Hierarchical clustering | [Slides](slides/slides-recsm-ml-2018-s34.pdf) |
-| 12:00-12:30 | Application 1: PCA      | Lab |
-| 12:30-13:00 | Application 2: clustering methods | Lab |
+| 12:00-12:30 | Application 1: PCA      | [Lab](lab/lab-03a.html) |
+| 12:30-13:00 | Application 2: clustering methods | [Lab](lab/lab-03b.html) |
 
 #### Main Readings
 

@@ -1,7 +1,7 @@
 ---
-title: "Principal Components Analysis (PCA)"
+title: "Lab 1: Principal Components Analysis (PCA)"
 author: "Reto Wüest"
-date: "4/17/2018"
+date: "July 03, 2018"
 output:
   html_document:
     highlight: textmate
@@ -11,6 +11,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This exercise is based on James et al. 2013, chapter 10.4.
 
 ## Data
 
@@ -35,7 +36,9 @@ apply(USArrests, 2, mean)
 apply(USArrests, 2, var)
 ```
 
-To run PCA we use the `prcomp()` function.
+## PCA
+
+Principal Components Analysis (PCA) is a dimension reduction method. We run PCA on the data to capture some underlying measure of violence. To run PCA we use the `prcomp()` function.
 
 ```{r, echo=TRUE}
 # Run PCA
@@ -61,6 +64,7 @@ pca_out$rotation
 Similary, we can access the scores of the principal components as follows.
 
 ```{r, echo=TRUE}
+dim(pca_out$x)
 head(pca_out$x)
 ```
 
@@ -92,7 +96,7 @@ pve <- pca_var / sum(pca_var)
 pve
 ```
 
-We can plot the proportion of variance explained (PVE) by each component. The purpose is to determine how many components we need to account for most of the variance in the data set. It is common to look for an "elbow."
+We can plot the proportion of variance explained (PVE) by each component. The purpose is to determine how many components we need to account for most of the variance in the data set. It is common to look for an "elbow" (although this is not a disciplined approach).
 
 ```{r, echo=TRUE}
 # Finding the ellbow
